@@ -20,9 +20,9 @@ import {
   Film
 } from "lucide-react";
 
-import AudioUploader from "./audiouploader";
-import TextUploader from "./textuploader";
-import MicrophoneRecorder from "./microphonerecorder";
+import AudioUploader from "./AudioUploader";
+import TextUploader from "./TextUploader";
+import MicrophoneRecorder from "./MicrophoneRecorder";
 import TranscriptionDisplay from "./transcriptiondisplay";
 import VoiceSelector from "./voiceselector";
 import AnimationTypeSelector from "./animationtypeselector";
