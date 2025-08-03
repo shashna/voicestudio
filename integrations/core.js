@@ -1,4 +1,4 @@
-// integrations/Core.js
+// integrations/core.js
 
 // Dummy functions, replace with real API integrations as needed
 
