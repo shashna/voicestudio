@@ -20,15 +20,15 @@ import {
   Film
 } from "lucide-react";
 
-import AudioUploader from "../components/studio/audiouploader";
-import TextUploader from "../components/studio/textuploader";
-import MicrophoneRecorder from "../components/studio/microphonerecorder";
-import TranscriptionDisplay from "../components/studio/transcriptiondisplay";
-import VoiceSelector from "../components/studio/voiceselector";
-import AnimationTypeSelector from "../components/studio/animationtypeselector";
-import AnimationPreview from "../components/studio/animationpreview";
-import ProcessingSteps from "../components/studio/processingsteps";
-import audiogenerationbutton from "../components/studio/audiogenerationbutton";
+import AudioUploader from "./audiouploader";
+import TextUploader from "./textuploader";
+import MicrophoneRecorder from "./microphonerecorder";
+import TranscriptionDisplay from "./transcriptiondisplay";
+import VoiceSelector from "./voiceselector";
+import AnimationTypeSelector from "./animationtypeselector";
+import AnimationPreview from "./animationpreview";
+import ProcessingSteps from "./processingsteps";
+import audiogenerationbutton from "./audiogenerationbutton";
 
 export default function Studio() {
   const [currentStep, setCurrentStep] = useState(1);
