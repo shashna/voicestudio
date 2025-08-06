@@ -1,24 +1,30 @@
+"use client";
+
 import React, { useState, useRef } from "react";
-import { Project } from "@/entities/Project";
-import { UploadFile, InvokeLLM, GenerateImage, ExtractDataFromUploadedFile } from "@/integrations/Core";
+import { Project } from "../entities/project";
+import {
+  UploadFile,
+  InvokeLLM,
+  GenerateImage,
+  ExtractDataFromUploadedFile,
+} from "../integrations/core";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { Progress } from "@/components/ui/progress";
-import {
-  Upload,
-  Mic,
-  MicOff,
-  Play,
-  Pause,
-  Download,
-  Sparkles,
-  AudioLines,
-  Video,
-  Volume2,
-  FileText,
-  Film
-} from "lucide-react";
+const IconPlaceholder = (props) => <span {...props} />;
+const Upload = IconPlaceholder;
+const Mic = IconPlaceholder;
+const MicOff = IconPlaceholder;
+const Play = IconPlaceholder;
+const Pause = IconPlaceholder;
+const Download = IconPlaceholder;
+const Sparkles = IconPlaceholder;
+const AudioLines = IconPlaceholder;
+const Video = IconPlaceholder;
+const Volume2 = IconPlaceholder;
+const FileText = IconPlaceholder;
+const Film = IconPlaceholder;
 
 import AudioUploader from "./AudioUploader";
 import TextUploader from "./TextUploader";
