@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function audiogenerationbutton({ text }) {
+export default function AudioGenerationButton({ text }) {
   async function generateAndPlayAudio() {
     if (!text) {
       alert("No text to generate audio.");

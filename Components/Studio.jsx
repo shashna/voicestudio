@@ -23,12 +23,11 @@ import {
 import AudioUploader from "./AudioUploader";
 import TextUploader from "./TextUploader";
 import MicrophoneRecorder from "./MicrophoneRecorder";
-import TranscriptionDisplay from "./transcriptiondisplay";
-import VoiceSelector from "./voiceselector";
-import AnimationTypeSelector from "./animationtypeselector";
-import AnimationPreview from "./animationpreview";
-import ProcessingSteps from "./processingsteps";
-import audiogenerationbutton from "./audiogenerationbutton";
+import TranscriptionDisplay from "./TranscriptionDisplay";
+import VoiceSelector from "./VoiceSelector";
+import AnimationTypeSelector from "./AnimationTypeSelector";
+import AnimationPreview from "./AnimationPreview";
+import ProcessingSteps from "./ProcessingSteps";
 
 export default function Studio() {
   const [currentStep, setCurrentStep] = useState(1);
